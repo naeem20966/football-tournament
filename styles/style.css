@@ -1,0 +1,98 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.body{
+    font-family: 'Poppins', sans-serif;
+    background color: #FFFFFF;
+
+}
+.top-1{
+    display: flex;
+    width: 100%;
+    height: 777px;
+    background-color: #2D25A0;
+}
+.top-a{
+    font-size: 64px;
+    height: 50%;
+    width: 50%;
+    color: #FFFFFF;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');;
+}
+.button{
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #E02C6D;
+    font-size: 24px;
+    width: 88px;
+    height: 24px;
+}
+.top-c{
+height: 438px;
+width: 556px;
+justify-content: center;
+}
+/* players style */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #FFFFFF;
+    width: 1440px;
+    justify-content: center;
+    padding-left: 180px;
+    padding-right: 210px;
+}
+.player img{
+    width: 315px;
+    height: 260px;
+}
+.bottom{
+    width: 483px;
+    height:212px;
+    padding-left: 475px;
+    margin-top: 158px;
+}
+.football{
+    height: 110px;
+}
+.icon{
+    margin-left: 156px;
+}
+.fa-instagram.insta{
+color: #969BAB;
+width: 32px;
+height: 32px;
+}
+.fa-google-drive.google{
+    color: #969BAB;
+    width: 32px;
+    height: 32px;
+}
+.fa-twitter.twit{
+    color: #969BAB;
+    width: 32px;
+    height: 32px;
+}
+.fa-youtube{
+    color: #969BAB;
+    width: 32px;
+    height: 32px; 
+}
+.footer{
+    margin-left: 123px;
+    font-size: 25px;
+    font: @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
+/*....................
+media queries
+..................... */
+
+/* mobile device */
+@media only screen and (max-width:688px){.top-1, .players details, .bottom{
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+}
+    
+}
+
